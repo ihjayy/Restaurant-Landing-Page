@@ -24,7 +24,7 @@ function Navbar() {
                 <ul className="hidden items-center gap-8 md:flex">
                     {navLinks.map((link) => (
                         <li key={link.label}>
-                            <a href={link.href} className="text-sm font-medium text-[#F5EDE0] transition hover: text-[#D4A017]">
+                            <a href={link.href} className="text-sm font-medium text-[#F5EDE0] transition hover:text-[#D4A017]">
                                 {link.label}
                             </a>
                         </li>

@@ -1,4 +1,4 @@
-interface FootLink {
+interface FooterLink {
     label: string;
     href: string;
 }
