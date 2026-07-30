@@ -2,7 +2,7 @@ function Hero() {
     return (
         <section id="home" className="relative flex min-h-[90vh] items-center overflow-hidden bg-[#1C1410]">
             <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=80" alt="Assorted Filipino dishes on a table" className="absolute inset-0 h-full w-full object-cover opacity-40"/>
-            <div className="relative z-10 mx-auto max-w-6xl px-6 py-24 text-center md:text-left">
+            <div className="relative z-10 max-w-6xl px-60 py-24 text-left md:text-left">
                 <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-[#D4A017]">
                     Turo-turo, elevated   
                 </p>
