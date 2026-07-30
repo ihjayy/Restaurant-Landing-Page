@@ -1,8 +1,9 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import About from "./components/About";
-import Footer from "./components/Footer";
 import FeaturedDishes from "./components/FeaturedDishes";
+import About from "./components/About";
+import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Hero />
       <FeaturedDishes />
       <About />
+      <Testimonials />
       <Footer />
     </div>
   );

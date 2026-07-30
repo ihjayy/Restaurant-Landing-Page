@@ -23,7 +23,7 @@ function Footer() {
                <ul className="flex flex-wrap justify-center gap-6">
                 {quickLinks.map((link) => (
                     <li key={link.label}>
-                        <a href={link.href} className="text-sm text-[#F5RFR0]/70 transition hover:text-[#F5EDE0]">
+                        <a href={link.href} className="text-sm text-[#C1440E]/70 transition hover:text-[#F5EDE0]">
                             {link.label}
                         </a>
                     </li>

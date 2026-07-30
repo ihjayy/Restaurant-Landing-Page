@@ -10,3 +10,11 @@ export interface Dish {
     price: string;
     image: string;
 }
+
+export interface Testimonial {
+    id: number;
+    name: string;
+    review: string;
+    avatar: string;
+    rating: number
+}
