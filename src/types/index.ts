@@ -18,3 +18,9 @@ export interface Testimonial {
     avatar: string;
     rating: number
 }
+
+export interface ContactDetail {
+    label: string;
+    value: string;
+    icon: string;
+}
