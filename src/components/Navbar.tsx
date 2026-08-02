@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { NavLink } from "../types";
+import logo from "../assets/images/white-logo.png";
 
 
 const navLinks: NavLink[] = [
@@ -13,24 +14,22 @@ function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
-        <header className="sticky top-0 z-50 bg-[#1C1410]/95 backdrop-blur-sm shadow-lg">
-            <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <header className="sticky top-0 z-50 bg-[#234F3D]/95 backdrop-blur-sm shadow-lg">
+            <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-2">
                 <a href="#home" className="flex items-center gap-2">
-                    <span className="font-serif text-2xl font-bold tracking-wide text-[#D4A017]">
-                        Sarap Kusina
-                    </span>
+                    <img src={logo} alt="lasalin-logo" className="h-15 w-15 object-cover" />
                 </a>
 
                 <ul className="hidden items-center gap-8 md:flex">
                     {navLinks.map((link) => (
                         <li key={link.label}>
-                            <a href={link.href} className="text-sm font-medium text-[#F5EDE0] transition hover:text-[#D4A017]">
+                            <a href={link.href} className="text-sm font-medium text-[#F8F3E8] transition hover:text-[#C89B3C]">
                                 {link.label}
                             </a>
                         </li>
                     ))}
                 </ul>
-                <a href="#menu" className="hidden round-full bg-[#C1440E] px-5 py-2 text-sm font-semibold text-[#F5EDE0] transition hover:bg-[#A83A0C] md:inline-block">
+                <a href="#menu" className="hidden round-full bg-[#B65A3A] px-5 py-2 text-sm font-semibold text-[#F8F3E8] transition hover:bg-[#C89B3C] md:inline-block">
                     Order Now
                 </a>
 

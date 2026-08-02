@@ -1,3 +1,5 @@
+
+
 export interface NavLink{
     label: string;
     href: string;
@@ -11,6 +13,12 @@ export interface Dish {
     image: string;
 }
 
+export interface Feature {
+    title: string;
+    description: string;
+    icon: string;
+}
+
 export interface Testimonial {
     id: number;
     name: string;
@@ -22,5 +30,4 @@ export interface Testimonial {
 export interface ContactDetail {
     label: string;
     value: string;
-    icon: string;
 }
