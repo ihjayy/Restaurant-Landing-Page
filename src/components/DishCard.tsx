@@ -6,7 +6,7 @@ interface DishCardProps {
 
 function DishCard ({dish}: DishCardProps) {
     return (
-        <div className="overflow-hidden rounded-2xl bg-[#F5EDE0] shadow-md transition hover:-translate-y-1 hover:shadow-xl">
+        <div className="cursor-pointer overflow-hidden rounded-2xl bg-[#F5EDE0] shadow-md transition hover:-translate-y-1 hover:shadow-xl">
             <img src={dish.image} alt={dish.name} className="h-52 w-full object-cover"/>
             <div className="p-6">
                 <div className="flex items-center justify-between">

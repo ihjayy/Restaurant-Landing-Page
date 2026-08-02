@@ -3,11 +3,11 @@ import type {ContactDetail} from "../types";
 export const contactDetails: ContactDetail[] = [
     {
         label: "Address",
-        value: "123 Kalayaan Avenue, Quezon City, Metro Manila",
+        value: "123 Mira Verde, Antipolo City, Rizal",
         icon: "📍",
     },
     {
-        label: "Phone", value: "(02) 8123 4567", icon: "📞"
+        label: "Phone", value: "(+63) 9123 4567", icon: "📞"
     },
     {
         label: "Email", value: "hello@sarapkusina.ph", icon: "✉️"
