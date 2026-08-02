@@ -33,7 +33,7 @@ function Navbar() {
                     Order Now
                 </a>
 
-                <button className="text-[#F5EDE0] md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
+                <button className="text-[#F8F3E8] md:hidden" onClick={() => setIsMenuOpen(!isMenuOpen)} aria-label="Toggle menu">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             {isMenuOpen ? (
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12"/>
@@ -45,15 +45,15 @@ function Navbar() {
             </nav>
 
             {isMenuOpen && (
-                <ul className="flex flex-col gap-4 bg-[#1C1410] px-6 pb-6 md:hidden">
+                <ul className="flex flex-col gap-4 bg-[#234F3D] px-6 pb-6 md:hidden">
                    {navLinks.map((link) => (
                     <li key={link.label}>
-                        <a href={link.href} className="text-[#F5EDE0]" onClick={() => setIsMenuOpen(false)}>
+                        <a href={link.href} className="text-[#F8F3E8]" onClick={() => setIsMenuOpen(false)}>
                             {link.label}
                         </a>
                     </li>
                    ))}
-                   <a href="#menu" className="w-fit rounded-full bg-[#C1440E] px-5 py-2 text-sm font-semibold text-[#F5EDE0]" onClick={() => setIsMenuOpen(false)}>
+                   <a href="#menu" className="w-fit rounded-full bg-[#B65A3A] px-5 py-2 text-sm font-semibold text-[#F8F3E8]" onClick={() => setIsMenuOpen(false)}>
                     Order Now
                     </a> 
                 </ul>

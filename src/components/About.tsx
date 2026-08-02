@@ -11,10 +11,10 @@ function About() {
                         Our Story
                     </p>
                     <h2 className="mt-2 font-serif text-3xl font-bold text-[#F8F3E8] sm:text-4xl">
-                        From a small turo-turo to a family favorite
+                        From a small business to a family favorite
                     </h2>
                     <p className="mt-4 leading-relaxed text-[#F8F3E8]/80">
-                        Restaurant started in 2026 as a tiny four-table eatery run by
+                        Lasalin started in 2026 as a tiny four-table eatery run by
                         two siblings who missed their mother's cooking. A decade later,
                         we're still using her recipes — just with a bigger kitchen and a
                         few more chairs.
